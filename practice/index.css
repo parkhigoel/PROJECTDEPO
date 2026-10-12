@@ -1,0 +1,88 @@
+/*
+selector{
+property:value
+}
+*/
+/* 1. Universal Selector(*)*/
+
+* {
+  border: 1px solid red;
+}
+/*Tag Selector*/
+/* to apply some css on multiple same tag*/
+h1 {
+  color: red;
+}
+/* class selector.anyclassname*/
+/* to apply css on diffrent multiple tags and we use attribute class and assign same name to them and can write multiple classes*/
+.a {
+  color: pink;
+  font-size: 32px;
+}
+.b {
+  background-color: blue;
+  font-size: 32px;
+}
+/* Id selector #anyidname9*/
+/* for uniquenes and should apply ona single element without using inline css*/
+#c {
+  font-weight: 700;
+  color: palevioletred;
+}
+
+/* group selector,*/
+/* just to give some css to multiple diffrent tags in this we can use id,tag,class selector*/
+h2,
+h3,
+.b {
+  color: brown;
+}
+/* descendant selector*/
+#f p{
+    color:bisque;
+    font-size:40px;
+    backgroung-color:red;
+}
+/* child selector>*/
+/* to give css to direct child only*/
+#f>p{
+  color:red;
+  font: size 40px;
+  font-weight: 70;
+  background-color: yellow;
+}
+.k{
+  /* color:red;
+border:1px solid yellow;
+font-size:32px;*/
+}
+/* pseudo elements:*/
+li:nth-child(2){
+  color:red;
+  border:1px solid yellow;
+  background-color:yellow;
+  font-size: 32px;
+}
+/* pseudo class::*/
+#pseudo::before{
+  /* content:"hello This content is a*/
+}
+#pseudo::first-line{
+  background-color: red;
+color:yellow;
+font-size: 40px;
+}
+#pseudo::first-letter{
+  font-size: 40px;
+  font-weight: 700;
+}
+#pseudo{
+  border:2px solid black;
+  /*padding is used for givng space
+/* using single meats it will apply 
+/* padding:20px;*/
+/* !st value denotes top and bottom
+2nd left and right*/
+/* padding:30px 40px;*/
+/* top right bottom
+}

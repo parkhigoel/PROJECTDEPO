@@ -1,0 +1,6 @@
+
+.flexcontainer{
+    height:80vh;
+    width:3px blue;
+    display flex;
+}

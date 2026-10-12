@@ -1,0 +1,109 @@
+//console.log(a);
+//Hoisting
+//Global Scope
+//var a = 10;
+//console.log(a);
+
+
+// Let
+// Block Scope
+//console.log(b);
+// TDZ (Temporal dead zone)
+//var b = 20;
+//console.log(b);
+
+
+//{
+
+//var a = "Hello";
+//console.log(a);
+//var b = "Hi";
+//console.log(b);
+//}
+//console.log(a);
+//console.log(b);
+
+// 1. Named Function 
+//function a() {
+   // console.log("Hello World 1")
+    //console.log("Hello World 2")
+    //console.log("Hello World 3")
+    //console.log("Hello World 4")
+    //console.log("Hello World 5")
+  //}
+//a();
+// console log("Sum of two variable is ',parameter1 +prameter2")
+// 
+// sum0ofTwo(20, 90)
+// sum0ofTwo(20, 90)
+// sum0ofTwo(20, 90)
+
+
+
+//const arr=[1,2,3,4,"sid"];
+//console.log(arr);
+//console.log(arr[4]);
+//arr.push("aa");
+//console.log(arr);
+//arr.push(7);
+//console.log(arr);
+//arr.pop();
+//console.log(arr);
+//arr.pop();
+//console.log(arr);
+//arr.pop();
+//console.log(arr);
+//arr.unshift(2);
+//console.log(arr);
+//arr.unshift(2);
+//console.log(arr);
+//arr.unshift("Hello");
+//console.log(arr);
+//console.log(arr.length);
+
+//console.log(typeof arr);
+//const obj ={
+  //  name:"sid";
+    //email:"pg@gmail.com";
+    //contact:989898,
+    //info:{
+      //  address:"jdfghjfhd";
+        //sports:["cricket","swimming"]
+
+    //}
+//}
+//console.log(obj);
+//console.log(obj.contact);
+//console.log(obj.info.sports);
+//console.log(obj.info.sports[0]);
+const arr=[1,2,3,4,5,6,7,8];
+//variable with a value;condition;Inc/dec the variable
+for(let i=0;i<arr.length;i++){
+    console.log("On index",i,"value is",arr[i]);
+  }
+  for(let i=1;i<=10;i++){
+    console.log("2*"+i+"="+(2+i));
+  }
+
+  console.log(arr);
+
+  const newArr =arr.map((currentValue,index)=>{
+    console.log("On index" ,index,"value is",currentValue);
+    return currentValue *index;
+  })
+  //console.log(arr);
+  console.log(newArr);
+  //console.log([1,2]=[1,2]);
+const evenNo =arr.filter((currentValue,index)=>{
+  //console.log("on index",inde,"value is",currentValue);
+  return currentValue%2==0;
+
+});
+console.log(evenNo);
+
+console sumOfAll=arr.reduce((accumulator,currentValue,index)=>{
+  return accumulator +currentValue;
+}, 0);
+console.log(SumOfAll);
+
+const students=
